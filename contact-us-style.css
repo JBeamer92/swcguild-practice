@@ -1,0 +1,20 @@
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: 460px;
+    margin: 10px;
+}
+
+.left-section {
+    width: 200px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.right-section {
+    width: 250px;
+    float: right;
+}

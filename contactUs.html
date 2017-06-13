@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="contact-us-style.css">
+    </head>
+    <body>
+        <div class="container">
+            <dl class="form">
+                <dt><label for="FirstName">First Name:</label></dt>
+                <dd><input type="text" id="FirstName" name="FirstName" /></dd>
+                <dt><label for="LastName">Last Name:</label></dt>
+                <dd><input type="text" id="LastName" name="LastName" /></dd>
+                <dt><label for="Email">Email:</label></dt>
+                <dd><input type="text" id="Email" name="Email" /></dd>
+                <dt><label for="License">Type of License:</label></dt>
+                <dd><input type="radio" name="License" value="Business" checked="checked"/>Business
+                    <input type="radio" name="License" value="Personal" />Personal
+                </dd>
+                <dt><label for="Reason">Reason:</label></dt>
+                <dd><select name="Reason" id="ReasonLabel">
+                        <option value="SelectAReason">Select a Reason</option>
+                        <option value="SoftwareSupport">Software Support</option>
+                        <option value="HardwareSupport">Hardware Support</option>
+                        <option value="InformationRequest">Information Request</option>
+                    </select>
+                </dd>
+                <dt><label for="AddInfo">Additional Information:</label></dt>
+                <dd><textarea name="name" rows="8" cols="80"></textarea>
+                </dd>
+            </dl>
+        </div>
+    </body>
+</html>
