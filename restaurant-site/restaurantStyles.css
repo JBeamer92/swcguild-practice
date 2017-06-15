@@ -1,0 +1,17 @@
+.wrapper {
+    text-align: center;
+}
+
+.nav {
+    height: 25px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+a {
+    width: 75px;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    height: 25px;
+}

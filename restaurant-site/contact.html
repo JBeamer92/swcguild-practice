@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sergio's Bistro - Contact</title>
+        <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Sergio's Bistro</h1>
+                <div class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </header>
+            <main>
+                <dl class="form">
+                    <dt><label for="Name"> Name:</label></dt>
+                    <dd><input type="text" id="Name" name="Name" /></dd>
+                    <dt><label for="Email">Email:</label></dt>
+                    <dd><input type="text" id="Email" name="Email" /></dd>
+                    <dt><label for="Phone">Phone:</label></dt>
+                    <dd><input type="text" id="Phone" name="Phone" /></dd>
+                    <dt><label for="Reason">Reason:</label></dt>
+                    <dd><select name="Reason" id="ReasonLabel">
+                            <option value="Catering">Catering</option>
+                            <option value="PrivateParty">Private Party</option>
+                            <option value="Feedback">Feedback</option>
+                        </select>
+                    </dd>
+                    <dt><label for="HasBeenToRestaurant">Have you been to the restaurant?</label></dt>
+                    <dd><input type="radio" name="HasBeenToRestaurant" value="No" checked="checked"/>No
+                        <input type="radio" name="HasBeenToRestaurant" value="Yes" />Yes
+                    </dd>
+
+                    <dt><label for="AddInfo">Best days to contact you:</label></dt>
+                    <dd>
+                        <input type="checkbox">M
+                        <input type="checkbox">T
+                        <input type="checkbox">W
+                        <input type="checkbox">Th
+                        <input type="checkbox">F
+                    </dd>
+                </dl>
+            </main>
+            <footer>
+                444 W. Delicious Street, Louisville, KY, 40203
+                <br>
+                (512) 555-5555
+            </footer>
+        </div>
+    </body>
+</html>
