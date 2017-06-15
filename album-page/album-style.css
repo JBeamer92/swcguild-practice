@@ -1,9 +1,10 @@
 #album-cover {
-    width: 250px;
+
 }
 
 .image{
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/34/Jason_Mraz_-_Mr._A-Z.jpg");
+    background: url("https://upload.wikimedia.org/wikipedia/en/3/34/Jason_Mraz_-_Mr._A-Z.jpg");
+    width: 250px;
 }
 
 .align-left {
