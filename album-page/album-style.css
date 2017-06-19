@@ -1,10 +1,16 @@
-#album-cover {
-
+html, body {
+  height: 100%;
 }
 
-.image{
-    background: url("https://upload.wikimedia.org/wikipedia/en/3/34/Jason_Mraz_-_Mr._A-Z.jpg");
-    width: 250px;
+.image {
+  height: 250px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/81ueig0dwUL._SY355_.jpg);
+  width: 250px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .align-left {
@@ -19,9 +25,22 @@
     font-style: italic;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #66FFFF;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+td {
+    background-color: rgb(230,255,255);
 }
 
 .table-format {
