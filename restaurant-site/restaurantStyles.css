@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass|Slabo+27px');
 
-h1 {
-    font-family: "Overpass", sans-serif;
-}
-
 .wrapper {
     text-align: center;
     font-family: "Slabo 27px", serif;
+    background-color: LightGray;
+    margin: 0 auto;
+}
+
+header {
+    background-color: LightBlue;
+    margin-bottom: 0;
+}
+
+header > h1 {
+    font-family: "Overpass", sans-serif;
 }
 
 .nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    height: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: pink;
+    margin-bottom: 0px;
+    padding: 10px 20px;
 }
 
 a {
@@ -21,5 +30,13 @@ a {
     float: left;
     text-decoration: none;
     display: inline-block;
-    height: 25px;
+    color: black;
+}
+
+a:visited {
+    color: white;
+}
+
+footer {
+    background-color: orange;
 }
