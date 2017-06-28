@@ -1,42 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Overpass|Lora');
+
+* {
+    padding: 0;
+    margin: 0;
+}
 
 .wrapper {
+    width: 920px;
+    margin: 0 auto;
+    font-family: "Overpass"
+}
+
+.content-center {
+    width: 90%;
+    min-width: 400px;
+    margin: auto;
+}
+
+.txt-center {
     text-align: center;
-    font-family: "Slabo 27px", serif;
-    background-color: LightGray;
+}
+
+/* logo */
+.logo-container {
+
+}
+
+.font-Lora {
+    font-family: "Lora"
+}
+
+/* navigation */
+.nav {
+    background-color: #57BC90;
+    height: 50px;
+}
+
+.nav-ul {
+    width: 450px;
     margin: 0 auto;
 }
 
-header {
-    background-color: LightBlue;
-    margin-bottom: 0;
-}
-
-header > h1 {
-    font-family: "Overpass", sans-serif;
-}
-
-.nav {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    background-color: pink;
-    margin-bottom: 0px;
-    padding: 10px 20px;
-}
-
-a {
-    width: 75px;
-    padding: 5px 10px;
+.nav-list {
+    list-style-type: none;
+    width: 146px; /* account for borders */
     float: left;
+    text-align: center;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    height: 50px; /* account for borders */
+    border-collapse: collapse;
+}
+
+.nav-links {
     text-decoration: none;
-    display: inline-block;
-    color: black;
+    color: #FFF;
+    line-height: 50px;
+    display: block; /* makes space around text clickable */
 }
 
-a:visited {
-    color: white;
+.nav-links:hover {
+    background-color: #77C9D4;
+    font-weight: bold;
 }
 
-footer {
-    background-color: orange;
+.nav-links:visited {
+    color: #015249;
 }

@@ -5,18 +5,23 @@
         <title>Sergio's Bistro - Menu</title>
         <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
         <style>
-            main {
+
+            .main-container {
                 background-color: rgb(175, 220, 200);
                 padding: 15px;
-                margin-top: 44px;
-
             }
-            .description, .price {
+
+            .description {
                 display: block;
             }
 
             .price {
                 font-weight: bold;
+                display: block;
+            }
+
+            .menu-list {
+
             }
 
             table {
@@ -31,91 +36,99 @@
             th {
                 text-decoration: underline;
             }
+            
         </style>
     </head>
     <body>
-        <div class="wrapper">
+        <div class="wrapper content-center txt-center">
             <header>
-                <h1>Sergio's Bistro</h1>
+                <div class="logo-container">
+                    <h1 class="font-Lora">Sergio's Bistro</h1>
+                </div>
                 <div class="nav">
-                    <a href="index.html">Home</a>
-                    <a href="menu.html">Menu</a>
-                    <a href="contact.html">Contact Us</a>
+                    <ul class="nav-ul font-Lora">
+                        <li class="nav-list"><a class="nav-links" href="index.html">Home</a></li>
+                        <li class="nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
+                        <li class="nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
+                    </ul>
                 </div>
             </header>
             <main>
-                <div class="menu-list">
-                    <h2>
-                        Burger and Fries
-                    </h2>
-                    <p>
-                        <span class="description">
-                            An American Classic!
-                        </span>
-                        Your choice - with or without cheese, pickle, onion, tomato, and lettuce. Served with our famous thick cut french fries.
-                        <span class="price">$7.95</span>
-                    </p>
-                </div>
-                <div class="menu-list">
-                    <h2>
-                        Hot Dog and Chips
-                    </h2>
-                    <p>
-                        <span class="description">
-                            A Summer Classic!
-                        </span>
-                        Your choice - white or wheat bun, relish, mustard, and ketchup. Served with our house-made chips.
-                        <span class="price">$7.95</span>
-                    </p>
-                </div>
-                <div class="menu-list">
-                    <h2>
-                        Italian Sausage and Peppers
-                    </h2>
-                    <p>
-                        <span class="description">
-                            An All-Time Favorite!
-                        </span>
-                        Your choice - mild or spicy. Served with cole slaw and garlic mashers.
-                        <span class="price">$10.95</span>
-                    </p>
-                </div>
-                <div class="menu-list">
-                    <h2>
-                        Tenderloin Sandwich and Chips
-                    </h2>
-                    <p>
-                        <span class="description">
-                            Really Hits the Spot!
-                        </span>
-                        Plain or sesame seed bun, pickle, onion, tomato, and lettuce. Served with our house-made chips.
-                        <span class="price">$8.95</span>
-                    </p>
-                </div>
-                <div class="menu-list">
-                    <h2>
-                        House Salad
-                    </h2>
-                    <p>
-                        <span class="description">
-                            On the Lighter Side
-                        </span>
-                        Your choice - with or without cheese, iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch dressing. Served with a dinner roll.
-                        <span class="price">$6.95</span>
-                    </p>
-                </div>
-                <div class="menu-list">
-                    <h2>
-                        Brisket Sandwich and Fries
-                    </h2>
-                    <p>
-                        <span class="description">
-                            A taste of Texas!
-                        </span>
-                        Smoked brisket on thick-cut Texas toast. Served with cole slaw and our famous thick-cut french fries!
-                        <span class="price">$7.95</span>
-                    </p>
-                </div>
+                <div class="main-container">
+                    <div class="menu-list">
+                        <h2>
+                            Burger and Fries
+                        </h2>
+                        <p>
+                            <span class="description">
+                                An American Classic!
+                            </span>
+                            Your choice - with or without cheese, pickle, onion, tomato, and lettuce. Served with our famous thick cut french fries.
+                            <span class="price">$7.95</span>
+                        </p>
+                    </div>
+                    <div class="menu-list">
+                        <h2>
+                            Hot Dog and Chips
+                        </h2>
+                        <p>
+                            <span class="description">
+                                A Summer Classic!
+                            </span>
+                            Your choice - white or wheat bun, relish, mustard, and ketchup. Served with our house-made chips.
+                            <span class="price">$7.95</span>
+                        </p>
+                    </div>
+                    <div class="menu-list">
+                        <h2>
+                            Italian Sausage and Peppers
+                        </h2>
+                        <p>
+                            <span class="description">
+                                An All-Time Favorite!
+                            </span>
+                            Your choice - mild or spicy. Served with cole slaw and garlic mashers.
+                            <span class="price">$10.95</span>
+                        </p>
+                    </div>
+                    <div class="menu-list">
+                        <h2>
+                            Tenderloin Sandwich and Chips
+                        </h2>
+                        <p>
+                            <span class="description">
+                                Really Hits the Spot!
+                            </span>
+                            Plain or sesame seed bun, pickle, onion, tomato, and lettuce. Served with our house-made chips.
+                            <span class="price">$8.95</span>
+                        </p>
+                    </div>
+                    <div class="menu-list">
+                        <h2>
+                            House Salad
+                        </h2>
+                        <p>
+                            <span class="description">
+                                On the Lighter Side
+                            </span>
+                            Your choice - with or without cheese, iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch dressing. Served with a dinner roll.
+                            <span class="price">$6.95</span>
+                        </p>
+                    </div>
+                    <div class="menu-list">
+                        <h2>
+                            Brisket Sandwich and Fries
+                        </h2>
+                        <p>
+                            <span class="description">
+                                A taste of Texas!
+                            </span>
+                            Smoked brisket on thick-cut Texas toast. Served with cole slaw and our famous thick-cut french fries!
+                            <span class="price">$7.95</span>
+                        </p>
+                    </div>
+                </div> <!-- main container -->
+
                 <div>
                     <table>
                         <thead>
@@ -144,9 +157,10 @@
                 </div>
             </main>
             <footer>
-                444 W. Delicious Street, Louisville, KY, 40203
-                <br>
-                (512) 555-5555
+                <p class="font-Lora">
+                    444 W. Delicious Street, Louisville, KY, 40203
+                    <br> (512) 555-5555
+                </p>
             </footer>
         </div>
     </body>
