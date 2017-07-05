@@ -1,0 +1,49 @@
+Jared Beamer
+Box Model Calculations
+
+
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+
+
+TotalHeight = margin-top + border-top-width + padding-top + (height of content) + padding-bottom + border-bottom-width + margin-bottom
+
+TotalHeight = 20px + 1px + 10px + 150px + 10px + 1px + 20px
+
+TotalHeight = 212px
+
+
+
+TotalWidth = margin-left + border-left-width + padding-left + (width of content) + padding-right + border-right-width + margin-right
+
+TotalWidth = 20px + 1px + 10px + 400px + 10px + 1px + 20px
+
+TotalWidth = 462px
+
+
+
+BrowserCalculatedHeight = border-top + padding-top + (height of the content)+ padding-bottom + border-bottom
+
+BrowserCalculatedHeight = 1px + 10px + 150px + 10px + 1px
+
+BrowserCalculatedHeight = 172px
+
+
+
+BrowserCalculatedWidth = border-left + padding-left + (width of the content)+ padding-right + border-right
+
+BrowserCalculatedWidth = 1px + 10px + 400px + 10px + 1px
+
+BrowserCalculatedWidth = 422px
