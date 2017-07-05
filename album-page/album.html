@@ -3,7 +3,15 @@
   <head>
     <title>Album Page</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="album-style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+      <link rel="stylesheet" href="album-style.css" type="text/css">
     <style>
         body {
             text-align: center;
@@ -13,8 +21,7 @@
   <body>
     <div class="container">
       <div class="header">
-          <div class="image">
-          </div>
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81ueig0dwUL._SY355_.jpg" alt="Mr. A-Z album cover" class="img-circle">
           <h1>Mr. A-Z</h1>
           <h2><a href="#">Jason Mraz</a></h2>
           <h3>July 26, 2005</h3>
@@ -30,7 +37,7 @@
               <li>Steve Lillywhite, Josh Deutsch, Kevin Kadish - Producer</li>
           </ul>
           <h2 class="font">Tracks</h2>
-          <table class="table-format">
+          <table class="table-format table-responsive table-striped">
               <thead>
                   <tr bgcolor="grey">
                       <th>Track #</th>
@@ -104,5 +111,6 @@
       </div>
 
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
   </body>
 </html>

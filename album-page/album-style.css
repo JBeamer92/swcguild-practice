@@ -33,17 +33,3 @@ a:hover {
     text-decoration: underline;
     background-color: #66FFFF;
 }
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-td {
-    background-color: rgb(230,255,255);
-}
-
-.table-format {
-    width: 100%;
-    margin: 0 auto;
-}
