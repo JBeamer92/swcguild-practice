@@ -1,62 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass|Lora');
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.wrapper {
-    width: 920px;
-    margin: 0 auto;
+.txt-center {
+    text-align: center;
     font-family: "Overpass"
 }
 
-.content-center {
-    width: 90%;
-    min-width: 400px;
-    margin: auto;
-}
-
-.txt-center {
-    text-align: center;
-}
-
 /* logo */
-.logo-container {
-
-}
 
 .font-Lora {
     font-family: "Lora"
 }
 
+
 /* navigation */
-.nav {
-    background-color: #57BC90;
-    height: 50px;
-}
-
-.nav-ul {
-    width: 450px;
-    margin: 0 auto;
-}
-
-.nav-list {
-    list-style-type: none;
-    width: 146px; /* account for borders */
-    float: left;
-    text-align: center;
-    border-right: 1px solid #FFF;
-    border-left: 1px solid #FFF;
-    height: 50px; /* account for borders */
-    border-collapse: collapse;
-}
-
-.nav-links {
-    text-decoration: none;
-    color: #FFF;
-    line-height: 50px;
-    display: block; /* makes space around text clickable */
+.nav-style {
+    background-color: #7FEEB8;
 }
 
 .nav-links:hover {

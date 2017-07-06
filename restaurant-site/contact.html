@@ -3,6 +3,8 @@
 <html>
     <head>
         <title>Sergio's Bistro - Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
         <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
         <style>
             label {
@@ -11,27 +13,35 @@
         </style>
     </head>
     <body>
-        <div class="wrapper content-center txt-center">
+        <div class="container txt-center">
             <header>
-                <div class="logo-container">
-                    <h1 class="font-Lora">Sergio's Bistro</h1>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="font-Lora">Sergio's Bistro</h1>
+                    </div>
                 </div>
-                <div class="nav">
-                    <ul class="nav-ul font-Lora">
-                        <li class="nav-list"><a class="nav-links" href="index.html">Home</a></li>
-                        <li class="nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
-                        <li class="nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
-                    </ul>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <ul class="nav-style nav nav-tabs font-Lora">
+                            <li class="col-xs-4 col-sm-4 nav-list"><a class="nav-links" href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                            <li class="col-xs-4 col-sm-4 nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
+                            <li class="col-xs-4 col-sm-4 nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
             </header>
             <main>
                 <dl class="form">
+                                    
                     <dt><label for="Name"> Name:</label></dt>
                     <dd><input type="text" id="Name" name="Name" /></dd>
+
                     <dt><label for="Email">Email:</label></dt>
                     <dd><input type="text" id="Email" name="Email" /></dd>
+
                     <dt><label for="Phone">Phone:</label></dt>
                     <dd><input type="text" id="Phone" name="Phone" /></dd>
+
                     <dt><label for="Reason">Reason:</label></dt>
                     <dd><select name="Reason" id="ReasonLabel">
                             <option value="Catering">Catering</option>
@@ -39,6 +49,7 @@
                             <option value="Feedback">Feedback</option>
                         </select>
                     </dd>
+
                     <dt><label for="HasBeenToRestaurant">Have you been to the restaurant?</label></dt>
                     <dd><input type="radio" name="HasBeenToRestaurant" value="No" checked="checked"/>No
                         <input type="radio" name="HasBeenToRestaurant" value="Yes" />Yes
@@ -55,10 +66,16 @@
                 </dl>
             </main>
             <footer>
-                444 W. Delicious Street, Louisville, KY, 40203
-                <br>
-                (512) 555-5555
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <p class="font-Lora">
+                            444 W. Delicious Street, Louisville, KY, 40203
+                            <br> (512) 555-5555
+                        </p>
+                    </div>
+                </div>
             </footer>
         </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
     </body>
 </html>

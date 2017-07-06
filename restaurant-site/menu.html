@@ -1,139 +1,211 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Sergio's Bistro - Menu</title>
-        <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
-        <style>
 
-            .main-container {
-                background-color: rgb(175, 220, 200);
-                padding: 15px;
-            }
+<head>
+    <title>Sergio's Bistro - Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
+    <style>
+        .main-container {
+            background-color: rgb(175, 220, 200);
+            padding: 15px;
+        }
 
-            .description {
-                display: block;
-            }
+        .bold {
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-            .price {
-                font-weight: bold;
-                display: block;
-            }
+        th {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-            .menu-list {
-
-            }
-
-            table {
-                width: 45%;
-                margin: 0 auto;
-            }
-
-            th, td {
-                width: 50%;
-            }
-
-            th {
-                text-decoration: underline;
-            }
-            
-        </style>
-    </head>
-    <body>
-        <div class="wrapper content-center txt-center">
-            <header>
-                <div class="logo-container">
+<body>
+    <div class="container txt-center">
+        <header>
+            <div class="row">
+                <div class="col-sm-12">
                     <h1 class="font-Lora">Sergio's Bistro</h1>
                 </div>
-                <div class="nav">
-                    <ul class="nav-ul font-Lora">
-                        <li class="nav-list"><a class="nav-links" href="index.html">Home</a></li>
-                        <li class="nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
-                        <li class="nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="nav-style nav nav-tabs font-Lora">
+                        <li class="col-sm-4 nav-list"><a class="nav-links" href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li class="col-sm-4 nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
+                        <li class="col-sm-4 nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-            </header>
-            <main>
-                <div class="main-container">
-                    <div class="menu-list">
-                        <h2>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="row">
+                    <h2>
                             Burger and Fries
                         </h2>
-                        <p>
-                            <span class="description">
-                                An American Classic!
-                            </span>
-                            Your choice - with or without cheese, pickle, onion, tomato, and lettuce. Served with our famous thick cut french fries.
-                            <span class="price">$7.95</span>
-                        </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            An American Classic!
+                        </span>
                     </div>
-                    <div class="menu-list">
-                        <h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        Your choice - with or without cheese, pickle, onion, tomato, and lettuce. Served with our famous thick cut french fries.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            $7.95
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2>
                             Hot Dog and Chips
                         </h2>
-                        <p>
-                            <span class="description">
-                                A Summer Classic!
-                            </span>
-                            Your choice - white or wheat bun, relish, mustard, and ketchup. Served with our house-made chips.
-                            <span class="price">$7.95</span>
-                        </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            A Summer Classic!
+                        </span>
                     </div>
-                    <div class="menu-list">
-                        <h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        Your choice - white or wheat bun, relish, mustard, and ketchup. Served with our house-made chips.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            $7.95
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>
                             Italian Sausage and Peppers
                         </h2>
-                        <p>
-                            <span class="description">
-                                An All-Time Favorite!
-                            </span>
-                            Your choice - mild or spicy. Served with cole slaw and garlic mashers.
-                            <span class="price">$10.95</span>
-                        </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            An All-Time Favorite!
+                        </span>
                     </div>
-                    <div class="menu-list">
-                        <h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        Your choice - mild or spicy. Served with cole slaw and garlic mashers.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            $10.95
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>
                             Tenderloin Sandwich and Chips
                         </h2>
-                        <p>
-                            <span class="description">
-                                Really Hits the Spot!
-                            </span>
-                            Plain or sesame seed bun, pickle, onion, tomato, and lettuce. Served with our house-made chips.
-                            <span class="price">$8.95</span>
-                        </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            Really Hits the Spot!
+                        </span>
                     </div>
-                    <div class="menu-list">
-                        <h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        Plain or sesame seed bun, pickle, onion, tomato, and lettuce. Served with our house-made chips.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            $8.95
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>
                             House Salad
                         </h2>
-                        <p>
-                            <span class="description">
-                                On the Lighter Side
-                            </span>
-                            Your choice - with or without cheese, iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch dressing. Served with a dinner roll.
-                            <span class="price">$6.95</span>
-                        </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            On the Lighter Side.
+                        </span>
                     </div>
-                    <div class="menu-list">
-                        <h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        Your choice - with or without cheese, iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch dressing. Served with a dinner roll.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            $6.95
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>
                             Brisket Sandwich and Fries
                         </h2>
-                        <p>
-                            <span class="description">
-                                A taste of Texas!
-                            </span>
-                            Smoked brisket on thick-cut Texas toast. Served with cole slaw and our famous thick-cut french fries!
-                            <span class="price">$7.95</span>
-                        </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            A Taste of Texas!
+                        </span>
                     </div>
-                </div> <!-- main container -->
+                </div>
 
-                <div>
-                    <table>
+                <div class="row">
+                    <div class="col-sm-12">
+                        Smoked brisket on thick-cut Texas toast. Served with cole slaw and our famous thick-cut french fries!
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="bold">
+                            $7.95
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- main container -->
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <table class="table table-condensed table-responsive">
                         <thead>
-                            <th>Beverages</th>
-                            <th></th>
+                            <th colspan="2">Beverages</th>
                         </thead>
                         <tbody>
                             <tr>
@@ -155,13 +227,20 @@
                         </tbody>
                     </table>
                 </div>
-            </main>
-            <footer>
-                <p class="font-Lora">
-                    444 W. Delicious Street, Louisville, KY, 40203
-                    <br> (512) 555-5555
-                </p>
-            </footer>
-        </div>
-    </body>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <p class="font-Lora">
+                        444 W. Delicious Street, Louisville, KY, 40203
+                        <br> (512) 555-5555
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</body>
+
 </html>
