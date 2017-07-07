@@ -4,9 +4,10 @@
 
 <head>
     <title>Sergio's Bistro</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
+
 </head>
 
 <body>
@@ -28,10 +29,56 @@
             </div>
         </header>
         <main>
-            <div class="jumbotron">
-                <h2 class="font-Lora">New Location Coming Soon!</h2>
-                <p>Follow us on social media to receive the latest news!</p>
+
+            <!-- carousel -->
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                        <!-- no indicators included -->
+
+                        <!-- wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="carousel-content">
+                                    <div class="announcements">
+                                        <h2>We're opening a new location!</h2>
+                                        <h4>Follow us on social media to get the latest details!</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <div class="announcements">
+                                        <h2>We're rolling out our seasonal menu!</h2>
+                                        <h4>Special options for the season.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <div class="announcements">
+                                        <h2>Drink of the Month:</h2>
+                                        <h4>SG Special Brew</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
             </div>
+
+            <!-- end carousel -->
+
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
                     <img src="images/bistro.jpg" alt="Picture of bistro." class="img-responsive" style="">
@@ -45,17 +92,19 @@
         </main>
         <footer>
             <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <p class="font-Lora">
-                        444 W. Delicious Street, Louisville, KY, 40203
-                        <br> (512) 555-5555
-                    </p>
+                <div class="footer-style">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <p class="font-Lora">
+                            444 W. Delicious Street, Louisville, KY, 40203
+                            <br> (512) 555-5555
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+        </body>
 
-</body>
-
-</html>
+        </html>

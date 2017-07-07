@@ -25,3 +25,17 @@
 .nav-links:visited {
     color: #015249;
 }
+
+.announcements {
+    height: 100px;
+    background-color: #CCDDFF;
+    padding-top:1px;
+    margin: 5px 0 5px 0;
+}
+
+.footer-style {
+    height: 75px;
+    background-color: #7FEEB8;
+    margin: 5px 0 5px 0;
+    padding-top: 15px;
+}
