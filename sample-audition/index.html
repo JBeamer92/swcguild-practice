@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Sample Audition</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+
+<body>
+    <div class="container">
+
+    <div class="row">
+        <div class="col-sm-8">
+            <h1>Sample Audition</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8">
+
+
+            <form name="evenStevens" class="form" onsubmit="return getResult();">
+                <!-- copy the following rows into form and add Bootstrap form classes -->
+                <div class="row form-group">
+                    <div class="col-sm-4">
+                        <label for="numStart">Starting Number</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input id="numStart" type="number" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-sm-4">
+                        <label for="numEnd">Ending Number</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input id="numEnd" type="number" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-sm-4">
+                        <label for="numStep">Step</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input id="numStep" type="number" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-sm-offset-2 col-sm-4">
+                        <button type="submit" id="submitButton" class="btn btn-default">Display Evens</button>
+                    </div>
+                </div>
+            </form>
+
+
+            <div id="result-block">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Here are the even numbers between <span id="inputStart"></span> and <span id="inputEnd"></span> by <span id="inputStep"></span>'s:</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span id="result"></span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    </div> <!-- end container -->
+
+
+        <!-- jQuery js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Bootstrap js (REQUIRES jQUERY!) -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="script.js"></script>
+</body>
+</html>
