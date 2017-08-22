@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass|Lora');
 
 body {
-    background-color:#E6EBE0;
-    padding:0;
-    margin:0;
+    background-color: #E6EBE0;
+    padding: 0;
+    margin: 0;
     font-family: "Overpass";
-    color:#0f3736;
+    color: #0f3736;
+    text-align: center;
 }
 
 .container{
-    margin:auto;
-    overflow:hidden;
-}
-
-.txt-center {
-    text-align: center;
+    margin: auto;
+    overflow: hidden;
 }
 
 /* header */
@@ -25,7 +22,7 @@ header{
 
 header ul{
     background-color: #7FEEB8;
-    margin:auto;
+    margin: auto;
 }
 
 
@@ -39,28 +36,28 @@ ul a:hover {
 }
 .nav-links:active{
     text-decoration: underline;
-    
+
 }
 
 .announcements {
     min-height: 150px;
     background-color: #F4F1BB;
-    padding-top:25px;
+    padding-top: 25px;
     margin: 5px 0 5px 0;
 }
 
 #bistro{
-    margin:auto;
+    margin: auto;
 }
 
 #aboutSergio{
-    min-height:100px;
-    font-size:15px;
-    line-height:1.5;
+    min-height: 100px;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 #aboutSergio p{
-    padding-top:25px;
+    padding-top: 25px;
 }
 
 
