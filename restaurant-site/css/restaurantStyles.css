@@ -25,39 +25,21 @@ header ul{
     margin: auto;
 }
 
+ul a {
+    color: #0f3736;
+}
+
 
 ul a:hover {
     background-color: #ed6a5a;
     font-weight: bold;
 }
 
-.nav-links:visited {
+.nav-link:visited
     color: #015249;
 }
-.nav-links:active{
+.nav-link:active{
     text-decoration: underline;
-
-}
-
-.announcements {
-    min-height: 150px;
-    background-color: #F4F1BB;
-    padding-top: 25px;
-    margin: 5px 0 5px 0;
-}
-
-#bistro{
-    margin: auto;
-}
-
-#aboutSergio{
-    min-height: 100px;
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-#aboutSergio p{
-    padding-top: 25px;
 }
 
 
