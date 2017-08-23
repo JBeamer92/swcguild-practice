@@ -9,36 +9,37 @@ body {
     text-align: center;
 }
 
-.container{
+.container {
     margin: auto;
     overflow: hidden;
 }
 
 /* header */
 
-header{
+header {
     font-family: "Lora";
 }
 
-header ul{
+header ul {
     background-color: #7FEEB8;
     margin: auto;
 }
 
-ul a {
+ul li a {
     color: #0f3736;
 }
 
 
-ul a:hover {
+ul li a:hover {
     background-color: #ed6a5a;
     font-weight: bold;
 }
 
-.nav-link:visited
-    color: #015249;
+ul li a:visited {
+    color: #666644;
 }
-.nav-link:active{
+
+ul li a:active {
     text-decoration: underline;
 }
 
